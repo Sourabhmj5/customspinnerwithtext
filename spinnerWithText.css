@@ -1,0 +1,26 @@
+.spinner-small::after {
+    position: absolute;
+    content: attr(data-text);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    top: calc(50% + 1em);
+}
+
+.spinner-medium::after {
+    position: absolute;
+    content: attr(data-text);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    top: calc(50% + 2em);
+}
+
+.spinner-large::after {
+    position: absolute;
+    content: attr(data-text);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    top: calc(50% + 3em);
+}

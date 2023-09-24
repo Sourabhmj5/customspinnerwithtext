@@ -1,0 +1,15 @@
+<!--
+  @description       : 
+  @author            : Sourabh Bhattacharjee
+  @group             : 
+  @last modified on  : 08-15-2023
+  @last modified by  : Sourabh Bhattacharjee 
+  Modifications Log
+  Ver   Date         Author                  Modification
+  1.0   08-15-2023   Sourabh Bhattacharjee   Initial Version
+-->
+<template>
+    <div if:true={showSpinner}>
+        <lightning-spinner alternative-text={helpText} size={size} class={spinnerClass} variant={variant} data-text={helpText}></lightning-spinner>
+    </div>
+</template>
